@@ -1,0 +1,13 @@
+###
+GET http://localhost:5000/hello
+
+###
+GET http://localhost:5000/hello?name=Flask-APP
+
+###
+POST http://localhost:5000/call-flow
+content-type: application/json
+
+{
+    "userMessage": "How can I close a flask app in terminal?"
+}
